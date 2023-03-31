@@ -12,7 +12,7 @@ pipeline {
                 sh 'ls -ltr'
             }
         }
-        stage('Run python file') {
+        stage('Run JS file') {
             steps {
                 sh 'welcome.js'
             }
