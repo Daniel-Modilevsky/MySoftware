@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Run JS file') {
             steps {
-                sh 'welcome.js'
+                sh 'welcom.js'
             }
         }
     }
