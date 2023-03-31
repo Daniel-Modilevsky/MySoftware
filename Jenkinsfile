@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Run python file') {
             steps {
-                sh 'python3 hey.py'
+                sh 'welcome.js'
             }
         }
     }
